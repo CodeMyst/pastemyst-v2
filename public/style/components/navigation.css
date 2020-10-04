@@ -2,7 +2,6 @@ nav
 {
     background-color: var(--color-nanolight);
     border-radius: var(--border-radius);
-    font-size: var(--font-size-medium);
     display: flex;
     flex-direction: row;
 }
@@ -57,11 +56,11 @@ nav ul li.donate a:hover
     background-color: var(--color-mystlue);
 }
 
-@media screen and (max-width: 860px)
-{
-    nav ul li.donate
-    {
-        position: relative;
-        top: 5px;
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 17px;
+    }
+    nav ul {
+        padding: 0.3rem 0.4rem;
     }
 }

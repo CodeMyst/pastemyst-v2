@@ -1,7 +1,0 @@
-html
-    head
-        title= title
-    
-    body
-        code
-            pre= rawCode

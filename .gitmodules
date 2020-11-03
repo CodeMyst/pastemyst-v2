@@ -1,3 +1,0 @@
-[submodule "scrypt.d"]
-	path = scrypt.d
-	url = https://github.com/CodeMyst/scrypt.d.git
